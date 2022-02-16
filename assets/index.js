@@ -22,5 +22,6 @@
 // console.log("Элементы после:" + array1);
 // console.log("Удален этот элемент:" + shifted);
 
-const array1 = [1, 2, 3, 4, 5];
-console.log(array1.slice(1));
+// const array1 = [1, 2, 3, 4, 5];
+// console.log(array1.slice(0, 3));
+ 
