@@ -49,3 +49,35 @@
 // const array1 = [3, 4, 1, 2, 7];
 // array1.sort();
 // console.log(array1);
+
+// const users = [
+//   { firstName: "Test", lastName: "Testovich", age: 42, gender: "male" },
+//   { firstName: "User", lastName: "Userovich", age: 12, gender: "male" },
+//   { firstName: "Test`ya", lastName: "Testovna", age: 16, gender: "female" },
+//   { firstName: "Logina", lastName: "Consol`evna", age: 42, gender: "female" },
+// ];
+// users.forEach((element) => console.log(element));
+
+// const users = [
+//   { firstName: "Test", lastName: "Testovich", age: 42, gender: "male" },
+//   { firstName: "User", lastName: "Userovich", age: 12, gender: "male" },
+//   { firstName: "Test`ya", lastName: "Testovna", age: 16, gender: "female" },
+//   { firstName: "Logina", lastName: "Consol`evna", age: 42, gender: "female" },
+// ];
+// users.map((user) => (user.telephoneNumber = "123456"));
+// console.log(users);
+
+// const users = [
+//   { firstName: "Test", lastName: "Testovich", age: 27, gender: "male" },
+//   { firstName: "User", lastName: "Userovich", age: 12, gender: "male" },
+//   { firstName: "Test`ya", lastName: "Testovna", age: 16, gender: "female" },
+//   { firstName: "Logina", lastName: "Consolevna", age: 42, gender: "female" },
+//   { firstName: "Undefined", lastName: "Undefinovich", age: 99 },
+//   { firstName: "Null", lastName: "Nullovich", gender: "male" },
+// ];
+// const result = users.filter((user) => user.gender === "female" && user.age > 18);
+// console.log(result);
+
+// const array1 = [1, 2, 3, [10, 20, 30, [100, 200, 300, [1000, 2000, 3000]]]];
+// const array2 = array1.flat(Infinity);
+// console.log(array2);
